@@ -1,0 +1,185 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@viewport {
+  zoom: 1.0;
+  width: device-width;
+}
+
+.wrapper {
+  min-width: 415px;
+}
+
+.landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  // min-height: 100%;
+  width: 100%;
+  min-width: 320px;
+  position: fixed;
+  margin-bottom: 5px;
+  top: 0;
+  left: 0;
+  z-index: -99;
+  background-image: linear-gradient(rgba(0,0,0,0.8) 100%, rgba(90, 100, 91,0.5)), url("landing.jpg");
+  background-size: cover !important;
+}
+
+.landing-content {
+  margin: 0 auto;
+  max-width: 70%;
+  text-align: center;
+}
+
+.landing-content h1 {
+  font-size: 88px;
+  font-family: Playfair Display, Helvetica;
+  color: white;
+  position:relative;
+  text-align: center;
+}
+
+.landing-content h3 {
+  font-size: 32px;
+  font-weight: lighter;
+  font-family: Oswald, Helvetica;
+  margin-bottom: 10px;
+  color: white;
+  position: relative;
+}
+
+
+.about {
+  color: white;
+  margin-top: 100vh;
+  background: black;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+}
+
+.about-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  height: auto;
+}
+
+.about-me {
+  flex: 1 1;
+  max-width: 900px;
+  min-width: 300px;
+}
+
+.about-me h3 {
+  font-size: 40px;
+  font-family: Playfair Display, Helvetica;
+}
+
+.about-me p {
+  font-weight: lighter;
+  font-size: 20px;
+  font-family: Oswald, Helvetica;
+  padding: 5px;
+}
+
+.about-me a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.about-me a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+
+.about-icons {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 72px;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-icons .fas {
+  margin: 30px 0;
+}
+
+.skills {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  z-index: 1000;
+  color: white;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-content {
+  font-size: 20px;
+  font-weight: lighter;
+  border: 5px solid;
+  padding: 20px 60px;
+}
+
+.skills-content h2 {
+  font-family: Playfair Display, Helvetica;
+}
+
+.skills-content li {
+  font-family: Oswald, Helvetica;
+}
+
+.contact {
+  height: 100vh;
+  min-height: 100%;
+  z-index:1000;
+  color: white;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-content {
+  min-width: 300px;
+  text-align: center;
+}
+
+.contact-text h2 {
+  font-family: Playfair Display, Helvetica;
+  font-size: 48px;
+}
+
+.contact-links a {
+  font-size: 48px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.contact-links a:hover {
+  text-decoration: none;
+  color: white;
+  transform: scale(1.2);
+}
+
+
+
+
